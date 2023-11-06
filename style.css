@@ -1,106 +1,61 @@
-body{
-    background-color: rgb(145, 9, 9);
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: rgb(147, 147, 147);
+    background-image: url(imagens/netflix-wallpaper.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    background-image: url("./wp3124190.jpg") 
-    
 }
-h1{background-color:brown; 
-    text-align: center;
-    font-size: 2.6em;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 100%;
+
+header {
+    background-color: rgba(0, 0, 0, 0.875);
+    max-width: 700px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+header > img {
+    display: block;
+    margin-top: -100px;
+    margin-bottom: -100px;
+}
+
+main, section {
+    background-color: white;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 15px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.404);
-    padding-bottom: 20px auto;
-    padding-top: 20px auto;   
-    margin-top: -30px;
-    border-radius: 15px;
 }
 
-section{
-    background-color: rgb(228, 168, 168);
-    max-width: 700px;
-    margin: 20px auto;
-    padding: 15px;
-    border-radius: 15px;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.404); 
+h1, h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #b1060f;
 }
 
-iframe{max-width: 700px;
-        margin: auto;
-        padding: auto;
-        width: 750px;
-        height: 390px;
-        width: 100%;
-        border-radius: 10px;}
+p {
+    text-align: justify;
+    line-height: 1.5em;
+    font-size: 1em;
+}
 
-    h2{
-        background-color: rgba(128, 7, 7, 0.281);
-        text-align: center;
-        border-radius: 10px;
-    }
-        
-p{
-  font-weight: bold;
-  text-indent: 40px;
- }
- .mm{
-    text-align: center;
- }
-
- p.pag002{
-    background-color: rgb(236, 147, 147);
-    background-size: cover;
-        text-align: center;
-        border-radius: 10px;
-        font-family: Arial, Helvetica, sans-serif;
-   width: 100%;
-
-    
- }
- 
- p.index{
-   background-color:  rgb(236, 147, 147);
-    text-align: center;
-    border-radius: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+img.cheia {
     width: 100%;
- }
+}
 
- *{
-    margin: 0px;
-    padding: 0px;
- }
+img.direita {
+    float: right;
+    margin-left: 15px;
+}
 
- nav > a{
-    background-color: rgba(189, 106, 106, 0.795);
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    transition-duration: 0.3s;
-    font-size: 1.2em;
-    display: inline-flex; 
-    margin: 10px 20px auto; 
-    padding: 15px 5px auto;
-    width: auto;
-    text-align: center;
-    background-size: 100%;
-    font-weight: bold;
-    padding-right: 2px;
-    padding-left: 10px;
- }
-
- nav > a:hover {
-background-color: rgba(156, 0, 0, 0.74);
- }
-
- header {
-    max-width: 700px;
-    margin: 20px auto;
-    padding: 15px;
- }
-
+strong {
+    color: #b1060f;
+}
